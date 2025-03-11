@@ -1,1 +1,74 @@
-<h1>Hello!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My School Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .project {
+            border-bottom: 1px solid #ddd;
+            padding: 15px 0;
+        }
+        .project:last-child {
+            border-bottom: none;
+        }
+        .project h2 {
+            margin: 0;
+            color: #333;
+        }
+        .project p {
+            color: #666;
+        }
+        .project a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .project a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>My School Projects</header>
+    <div class="container">
+        <div class="project">
+            <h2>Project 1: To-Do List (C#)</h2>
+            <p>A simple console-based To-Do list built with C#.</p>
+            <a href="#">View Project</a>
+        </div>
+        <div class="project">
+            <h2>Project 2: Android App (Kotlin)</h2>
+            <p>An Android app with Jetpack Compose for user authentication.</p>
+            <a href="#">View Project</a>
+        </div>
+        <div class="project">
+            <h2>Project 3: Machine Learning with ML.NET</h2>
+            <p>A stock market prediction model using ML.NET.</p>
+            <a href="#">View Project</a>
+        </div>
+    </div>
+</body>
+</html>
